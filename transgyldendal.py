@@ -3,7 +3,6 @@ from googletrans import Translator
 import clipboard
 
 translate = Translator()
-#___________________________def's____________________________
 
 
 def inoutput(string, lang):
@@ -21,7 +20,6 @@ def get_translation():
 	textvar.set(dundeal.text)
 	
 
-#___________________________config____________________________
 mainwindow = tkinter.Tk()
 mainwindow.geometry('280x80')
 mainwindow.config(bg='white')
@@ -39,7 +37,6 @@ mainwindow.rowconfigure(2, weight=5)
 mainwindow.rowconfigure(3, weight=10)
 mainwindow.rowconfigure(4, weight=10)
 
-#___________________________visual____________________________
 entry = tkinter.Entry(mainwindow)
 entry.grid(row=0, column=2, columnspan=2)
 variable = tkinter.StringVar(mainwindow)
